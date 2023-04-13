@@ -1,0 +1,6 @@
+@layer components {
+  /* @apply를 사용하여 기존 유틸리티 클래스를 사용자 지정 CSS에 인라인화합니다. */
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+}

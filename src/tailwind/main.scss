@@ -1,0 +1,19 @@
+//테일윈드 기본 CSS
+//리셋기능 및 base로 지정되야할 CSS들이 스타일링 되어있다.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+//bucket
+@import "bucket/.flex";
+
+
+
+@layer components {
+ /* @apply를 사용하여 기존 유틸리티 클래스를 사용자 지정 CSS에 인라인화합니다. */
+ #root{
+  color: #151727;
+  min-width: 1536px;
+ }
+}
